@@ -1,0 +1,22 @@
+body {
+  background-color: #edefcc;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: -20px 7px #AAAAAA;
+}
+
+a {
+  font-size: 24px;
+  color: #0c0e14;
+}
+
+p {
+  color: #0c0e14;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./dvd.png" />
+    <title>Random Stuff wow!</title>
+    <style>
+      img {
+        width: 100px;
+        position: absolute;
+        right: 10px;
+        top: 60px
+      }
+      
+      #box-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+      .box {
+        border: 1px solid black;
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        margin: 10px
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img id="img" src="./lorem_ipsum.jpg" alt="lorem ipsum ascii art" />
+    <br/>
+    <div id="nav">
+      <a href="./index.html">Home</a>
+      <a href="./the-outside.html">The Outside</a>
+      <a href="./lorem-ipsum.html">Lorem Ipsum Storage Cabinet</a>
+      <a href="./squares.html">Squares</a>
+      <a href="./sources.html">Sources</a>
+    </div>
+    <hr/>
+    <h1>
+      Budget Ipsum
+    </h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ullamcorper lorem at diam mollis, vitae malesuada enim vulputate. Quisque rutrum eget nunc id porta. Cras non sapien in lorem sollicitudin porttitor. Nunc sed varius sapien. Nullam tristique commodo fringilla. Phasellus mollis mattis nisi in vestibulum. In leo elit, maximus vitae tincidunt ac, ornare sollicitudin eros. Nunc scelerisque consectetur vestibulum. Aenean vulputate imperdiet commodo. Nunc ornare, nunc non lacinia aliquet, leo sem ultricies lorem, fringilla ornare eros ipsum sed ligula. Mauris faucibus ut orci in scelerisque. Curabitur sed massa quis lacus luctus pellentesque et ut est. Integer sit amet porta velit.
+    </p>
+    <hr/>
+    <h1>
+      Lorem Ipsum
+    </h1>
+    <h3>
+      Lorem Ipsum?
+    </h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut eros quis dolor ornare tempus id eu risus. Etiam gravida ex nec tortor lobortis feugiat. Vestibulum egestas nulla in nisi facilisis eleifend. In eget risus viverra, ultricies tortor et, laoreet diam. Vestibulum sagittis congue lacinia. Curabitur pretium dui id odio dapibus, vitae posuere lorem ultricies. Maecenas ipsum nibh, ultricies sit amet dictum cursus, viverra et sem. Fusce nunc ante, sollicitudin eget rutrum et, maximus et ex. Duis eleifend interdum lectus congue ultricies. Morbi nisl erat, euismod sed placerat eget, tempor in lorem.
+
+Aenean vitae turpis et odio blandit lobortis ac vitae nibh. Praesent efficitur felis sit amet dapibus vulputate. Mauris vel sollicitudin ipsum, vitae hendrerit orci. Sed sed urna rutrum, tincidunt dui vel, pretium quam. Ut posuere facilisis ligula tincidunt placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec pulvinar ante in lectus scelerisque placerat. Nullam cursus nunc facilisis libero suscipit, in cursus neque mollis. Morbi at orci faucibus, sollicitudin neque vel, fringilla lacus. Pellentesque pharetra faucibus orci, id ultricies felis consequat sit amet.
+
+Morbi vel metus ligula. Donec pulvinar, nunc vitae eleifend sagittis, purus libero cursus sem, at tempus eros ipsum consequat mi. Vestibulum sit amet laoreet tellus. Nulla eu quam eu sem eleifend efficitur. Aenean accumsan magna ut erat volutpat dapibus. Donec nunc odio, tempor fermentum interdum sed, aliquam id magna. Nullam hendrerit nisi eget elit ultricies, vestibulum sollicitudin felis accumsan. Phasellus ullamcorper placerat lorem, non auctor est consectetur eu. In vel congue turpis. Maecenas efficitur, urna nec luctus suscipit, erat felis hendrerit turpis, eu mattis ligula metus at purus. Maecenas elementum ultricies augue sit amet tempor.
+
+Suspendisse risus enim, condimentum a massa non, aliquet mollis tortor. Etiam sapien ante, commodo vel pulvinar eget, dapibus ac dolor. Fusce varius mattis hendrerit. Nam sodales facilisis iaculis. Integer viverra nulla sit amet est pulvinar laoreet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vitae euismod eros, sed ullamcorper ante. Nulla eget sapien porta nisi convallis malesuada at sit amet nibh.
+
+Fusce rutrum ligula non massa ultrices, sed venenatis ligula imperdiet. Vestibulum nec tortor justo. Integer gravida, lorem non iaculis suscipit, metus magna rhoncus nisl, in egestas eros tortor eget mauris. Suspendisse lacus turpis, hendrerit a tempor nec, commodo ut sem. Sed posuere tempor iaculis. Duis dapibus sodales urna, quis ullamcorper mi condimentum vitae. Quisque hendrerit placerat mauris, a pulvinar nibh gravida vitae. Morbi quis luctus elit, ut consequat odio. Vivamus eu est rutrum, iaculis orci sagittis, pretium lectus. Etiam ut orci mauris. Pellentesque eu risus a eros porttitor auctor. Nunc eleifend sit amet risus sit amet dapibus.
+
+In varius vehicula mauris, non blandit lectus fringilla quis. Praesent gravida lectus sit amet turpis mollis, a cursus ipsum sodales. Aenean malesuada arcu eu mi mollis, ac tristique tellus sollicitudin. Nunc nec ipsum sit amet dui ultrices eleifend. Sed ultricies sapien in semper ullamcorper. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce semper ultrices leo.
+    </p>
+    <br/>
+    <br/>
+    <p id="scav-progress"></p>
+    <div id="box-container">
+      <div class="box" draggable="true">Square of the Lorem Ipsum 2</div>
+      <div class="box" draggable="true">Square of the Lorem Ipsum 3</div>
+      <div class="box" draggable="true">Square of the Lorem Ipsum 1</div>
+      <div class="box" draggable="true">Square of the Lorem Ipsum 4</div>
+    </div>
+    <br/>
+    <br/>
+    <p style="color: #edefcc;" id="scav1">
+      Did you press crl+A to find this, or randomly highlited?
+    </p>
+  </body>
+  <script src="./lorem-ipsum.js" defer></script>
+</html>

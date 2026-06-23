@@ -1,0 +1,66 @@
+body {
+  background-color: #0c0e14;
+  text-align: center;
+}
+
+h1 {
+  color: #edefcc;
+  text-shadow: -20px 7px #AAAAAA;
+}
+
+h2 {
+  color: #edefcc;
+}
+
+a {
+  color: #edefcc;
+  font-size: 24px;
+}
+
+img {
+  position: fixed;
+  width: 200px;
+  height: 100px
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+  
+  12.5% {
+    color: orange;
+  }
+  
+  25% {
+    color: yellow;
+  }
+  
+  37.5% {
+    color: green;
+  }
+  
+  50% {
+    color: dodgerblue;
+  }
+  
+  62.5% {
+    color: blue;
+  }
+  
+  75% {
+    color: purple;
+  }
+  
+  87.5% {
+    color: pink;
+  }
+  
+  100% {
+    color: red;
+  }
+}
+
+#thanks {
+  animation: rainbow 2s infinite;
+}

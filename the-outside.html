@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./dvd.png" />
+    <title>Random Stuff wow!</title>
+    <style>
+      
+      @keyframes spin {
+        0% {
+          transform: rotateZ(0deg);
+        }
+        
+        100% {
+          transform: rotateZ(360deg);
+        }
+      }
+      
+      img {
+        width: 200px;
+        height: 200px;
+      }
+      
+      img:hover {
+        border: 5px double #0c0e14;
+      }
+      
+      hr {
+        animation: spin 2s linear 0s infinite
+      }
+      
+      span {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      
+      #grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+      }
+      
+      .secret-text {
+        color: #edefcc;
+        position: fixed;
+        transform: translateX(400px);
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="nav">
+      <a href="./index.html">Home</a>
+      <a href="./the-outside.html">The Outside</a>
+      <a href="./lorem-ipsum.html">Lorem Ipsum Storage Cabinet</a>
+      <a href="./squares.html">Squares</a>
+      <a href="./sources.html">Sources</a>
+    </div>
+    <h1>
+      The Gallery
+    </h1>
+    <br/>
+    <p id="scav-progress"></p>
+    <br/>
+    <hr/>
+    <span>
+      <hr/>
+      <div id="grid">
+        <img src="./chair.webp?" alt="Lawn Chairs" />
+        <img src="./grass.png" alt="Grass Field" />
+        <img src="./grass_door.jpg" alt="Black Door" />
+        <img id="scav1" src="./floating_chair.webp" alt="Floating Chair" />
+      </div>
+      <hr/>
+    </span>
+    <hr/>
+    <a id="scav2" class="secret-text">
+      Hello?
+    </a>
+  </body>
+  <script src="./the-outside.js" defer></script>
+</html>
